@@ -17,8 +17,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!-- Navbar for Small & Extra small screen -->
+    <div class="d-md-none">
+        <nav class="m-navbar">
+            <div class="m-nav-content">
+                <div class="row1">
+                    <div class="m-logo col col-8">
+                        <a href="#" class="flip-logo"><img width: src="./image/flipkart-logo.png" alt="flipkart-logo"></a>
+                        <a href="#" class="explore plus">Explore<span class="plus-txt">plus <img src="./image/flipkart-small.png" alt="plus"></span></a>
+                    </div>
+        
+                    <!-- More -->
+                    <div class="m-more col col-1">
+                        <i class="fa fa-plus"></i>
+                    </div>
+            
+                    <!-- Cart -->
+                    <div class="m-cart col col-1">
+                        <i class="fa fa-shopping-cart"></i></span>
+                    </div>
 
-    <!-- Navbar -->
+                    <!-- Login -->
+                    <div class="m-login col col-2">
+                        <a href="#" class="m-login-btn">Login</a>
+                    </div>
+                    
+
+                </div>
+                <!-- logo --> 
+
+                <!-- Searchbar -->
+                <div class="m-search-bar col col-12">
+                    <div class="m-search">
+                        <form class="m-search-form">
+                            <input type="text" placeholder="Search for products, brands, and more..." class="search-box">
+                            <button class="search-btn">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    
+        </nav>
+
+    </div>
+
+    <!-- Navbar for medium, large & extra large screen -->
+    <div class="d-none d-md-block">
     <nav class="navbar">
         <div class="nav-content">
 
@@ -60,6 +106,7 @@
         </div>
 
     </nav>
+</div>
     
     <!-- Category List -->
 

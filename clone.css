@@ -8,11 +8,10 @@ body{
 }
 
 
-
+/*Navbar for large screen*/
 .navbar{
     background-color: #2874f0;
     height: 56px;
-    z-index: 2;
     display: flex;
     width: 100%;  
 }
@@ -133,6 +132,55 @@ body{
 }
 
 
+/*Navbar for Small screen*/
+
+.m-navbar{
+    background-color: #2874f0;
+}
+
+.row1{
+    display: flex; 
+    justify-content: center; 
+    padding: 5px 30px;
+}
+
+.m-logo{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.m-more{
+    font-size: 17px; 
+    color: #fff;
+}
+
+.m-cart{
+    font-size: 17px; 
+    color: #fff;
+}
+
+.m-login{
+    text-align: center; 
+}
+
+.m-login-btn{
+    color: #fff; 
+    margin-left: 5px; 
+    text-decoration: none; 
+    font-size: 17px;
+}
+
+.m-search-bar{
+    justify-content: center; 
+    padding: 5px 30px;
+}
+
+.m-search-form{
+    display: flex;
+}
+
+
 /*Categories Menu*/
 .categories {
     display: flex;
@@ -177,7 +225,7 @@ body{
 }
 
 
-@media (max-width: 750px) { 
+@media (max-width: 767.98px) { 
     .cat-bar{
         padding: 0 10px;
     }
@@ -341,7 +389,7 @@ body{
 }
 
 /*Deals of the day for smaller sized screen*/
-@media (max-width: 750px) {  
+@media (max-width: 767.98px) {  
     .div-1{
         flex-direction: column;
         font-size: 11px;
@@ -404,6 +452,7 @@ body{
     /* max-width: 1200px; */
     /* width: 100%; */
     padding: 0 40px;
+    font-size: 14px;
     position: relative;
     background: #fff;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
@@ -527,7 +576,7 @@ body{
 
 /*Instrument secion for smaller sized screen*/
 
-@media (max-width: 750px) {  
+@media (max-width: 767.98px) {  
     .div-2{
         font-size: 11px;
         /* margin-top: 15px;*/
