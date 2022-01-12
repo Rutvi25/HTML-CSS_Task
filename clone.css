@@ -22,8 +22,9 @@ body{
     position: relative;
     display: flex;
     margin: auto;
-    left: 61px;
+    /* left: 61px; */
     width: 100%;
+    justify-content: center;
 }
 
 .logo{
@@ -57,6 +58,7 @@ body{
 .search-bar{
     min-width: 300px;
     width: calc(100% - 650px);
+    padding-left: 20px;
 }
 
 .search{
@@ -94,7 +96,8 @@ body{
 
 .login{
     position: relative;
-    left: 25px;
+    /* left: 25px; */
+    text-align: right;
 }
 
 .login-btn{
@@ -108,12 +111,13 @@ body{
     padding: 6px 30px;
     text-decoration: none;
     font-size: 16px;
-    margin: 0 20px;
+    
+    /* margin: 0 20px; */
 }
 
 .more, .cart{
     position: relative;
-    left: 35px;
+    /* left: 35px; */
 }
 
 .more-txt, .cart-txt{
@@ -123,6 +127,10 @@ body{
     cursor: pointer;
 }
 
+.more-cart{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
@@ -182,7 +190,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 1200px;
     position: relative;
     background: #fff;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
@@ -207,9 +214,9 @@ body{
 
 .clock h2{
     font-size: 22px;
-line-height: 32px;
-display: inline-block;
-font-weight: 500;
+    line-height: 32px;
+    display: inline-block;
+    font-weight: 500;
 }
 
 .clock .time{
@@ -306,12 +313,12 @@ font-weight: 500;
 
 
 .banner{ 
-    max-width: 248px;
+    
     display: block;
 }
 
 .banner img{
-    max-height: 330px;
+    max-height: 327px;
 }
 
 
