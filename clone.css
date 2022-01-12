@@ -182,7 +182,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    width: 1100px;
     background: #fff;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
     border-top: 1px solid #eaeaea;
@@ -237,7 +237,135 @@ font-weight: 500;
     font-weight: bolder;
 }
 
-.banner{
+
+
+
+.deal {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    min-height: 112px;
+    border-bottom: 2px solid lightgray;
+    position: relative;
+}
+
+.deal-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x:scroll;
+    overflow-y: hidden;  
+    max-height: 330px;
+}
+
+.deal-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 20px;
+    padding: 15px 8px;
+}
+
+.deal-item:hover{
+    transform: scale(1.01)
+}
+
+.deal-img {
+    
+    height: 128px;
+    
+}
+
+.deal-name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.4;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.deal-disc{
+    color: #388e3c;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.deal-other{
+    opacity: .6;
+    padding-top: 7px;
+    margin: 0;
+}
+
+
+
+
+.music {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    min-height: 112px;
+    border-bottom: 2px solid lightgray;
+    position: relative;
+}
+
+.music-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x:scroll;
+    overflow-y: hidden;  
+    max-height: 330px;
+}
+
+.music-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px 20px;
+    padding: 15px 22px;
+}
+
+.music-item:hover{
+    transform: scale(1.01)
+}
+
+.music-img {
+    
+    height: 128px;
+    width: 128px;
+}
+
+.music-name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 1.4;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.music-disc{
+    color: #388e3c;
+    padding-top: 8px;
+    margin: 0;
+}
+
+.music-other{
+    opacity: .6;
+    padding-top: 7px;
+    margin: 0;
+}
+
+.banner{ 
     max-width: 248px;
     display: block;
 }
