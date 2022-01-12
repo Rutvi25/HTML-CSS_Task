@@ -168,7 +168,7 @@ body{
     color: #2874f0;
 }
 
-
+/*Deals Section*/
 
 .div-1 {
     width: 100%;
@@ -182,11 +182,15 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 1100px;
+    max-width: 1200px;
+    position: relative;
     background: #fff;
     box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
     border-top: 1px solid #eaeaea;
+    overflow-x: scroll;
   }
+
+  /* Deal-heading*/
 
 .deals-head{
     display: flex;
@@ -238,7 +242,7 @@ font-weight: 500;
 }
 
 
-
+/* Deal Items*/
 
 .deal {
     display: flex;
@@ -247,6 +251,7 @@ font-weight: 500;
     min-height: 112px;
     border-bottom: 2px solid lightgray;
     position: relative;
+    overflow-x: scroll;
 }
 
 .deal-list {
@@ -273,9 +278,7 @@ font-weight: 500;
 }
 
 .deal-img {
-    
     height: 128px;
-    
 }
 
 .deal-name {
@@ -302,8 +305,91 @@ font-weight: 500;
 }
 
 
+.banner{ 
+    max-width: 248px;
+    display: block;
+}
+
+.banner img{
+    max-height: 330px;
+}
 
 
+/*Instrument Section*/
+
+.div-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.instrument {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* max-width: 1200px; */
+    width: 100%;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+    border-top: 1px solid #eaeaea;
+  }
+
+/*Music head*/
+.instrument-subhead{
+    border-bottom: 1px solid rgba(0,0,0,.1);   
+}
+
+.instrument-subhead h4{
+    font-size: 14px;
+    opacity: 0.6;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+.instrument-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px 0px 20px;
+    line-height: 1.4;
+}
+
+.music-head{
+    display: flex;
+}
+
+.music-head h2{
+    font-size: 22px;
+    line-height: 32px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.music-head h4{
+    font-size: 15px;
+    
+    opacity: .6;
+}
+
+.view-btn2{
+    background-color: #2874f0;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+
+/*Music Items*/
 .music {
     display: flex;
     width: 100%;
@@ -363,13 +449,4 @@ font-weight: 500;
     opacity: .6;
     padding-top: 7px;
     margin: 0;
-}
-
-.banner{ 
-    max-width: 248px;
-    display: block;
-}
-
-.banner img{
-    max-height: 330px;
 }
