@@ -7,7 +7,6 @@ body{
     max-width: 1260px;
 }
 
-
 /*Navbar for large screen*/
 .navbar{
     background-color: #2874f0;
@@ -131,7 +130,6 @@ body{
     justify-content: space-evenly;
 }
 
-
 /*Navbar for Small screen*/
 
 .m-navbar{
@@ -180,7 +178,6 @@ body{
     display: flex;
 }
 
-
 /*Categories Menu*/
 .categories {
     display: flex;
@@ -223,7 +220,6 @@ body{
 .cat-item:hover {
     color: #2874f0;
 }
-
 
 @media (max-width: 767.98px) { 
     .cat-bar{
@@ -315,7 +311,6 @@ body{
     font-size: 13px;
     font-weight: bolder;
 }
-
 
 /* Deal Items*/
 
@@ -510,7 +505,6 @@ body{
     justify-content: center;
 }
 
-
 /*Music Items*/
 .music {
     display: flex;
@@ -572,7 +566,6 @@ body{
     padding-top: 7px;
     margin: 0;
 }
-
 
 /*Instrument secion for smaller sized screen*/
 
